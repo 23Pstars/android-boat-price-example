@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Boat Price</string>
+    <string name="boat_photo">Boat Photo</string>
+    <string name="boat_name">Boat Name</string>
+    <string name="boat_depart">Boat Depart</string>
+    <string name="boat_arrive">Boat Arrive</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="detail">Detail</string>
+    <string name="boat_depart_time">Boat Depart Time</string>
+    <string name="boat_arrive_time">Boat Arrive Time</string>
+    <string name="boat_price">Boat Price</string>
+    <string name="departure">Departure</string>
+    <string name="arrival">Arrival</string>
+    <string name="depart_time">Depart Time</string>
+    <string name="arrival_time">Arrival Time</string>
+    <string name="book_now">Book Now</string>
+    <string name="agent">Agent</string>
+    <string name="boat_agent">Boat Agent</string>
+</resources>

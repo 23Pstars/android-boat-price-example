@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BoatItem" parent="AppTheme">
+
+    </style>
+
+    <style name="BoatItem.Photo">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="BoatItem.TextContent">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@id/boat_photo</item>
+    </style>
+
+    <style name="BoatItem.TextContent.Name">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BoatItem.TextContent.Info">
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:textSize">8sp</item>
+    </style>
+
+    <style name="BoatItem.TextContent.Info.Route">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <style name="BoatItem.TextContent.Info.Time">
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginTop">1dp</item>
+    </style>
+
+    <style name="BoatItem.Detail" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_toRightOf">@id/boat_photo</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:background">@android:color/holo_orange_dark</item>
+    </style>
+
+
+    <style name="BoatDetail" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BoatDetail.Photo">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="BoatDetail.Wrapper">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
+    <style name="BoatDetail.Wrapper.Price">
+        <item name="android:textSize">32sp</item>
+        <item name="android:background">#4D000000</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="BoatDetail.Description">
+
+    </style>
+
+    <style name="BoatDetail.Description.Row">
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="BoatDetail.Description.Field">
+        <item name="android:layout_marginRight">24dp</item>
+    </style>
+
+    <style name="BoatDetail.Description.Value">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="BoatDetail.Book" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@android:color/holo_red_light</item>
+    </style>
+
+</resources>
