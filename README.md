@@ -1,5 +1,4 @@
 # Boat Price
----
 
 ![Screenshot 1](screenshot1.png)
 
